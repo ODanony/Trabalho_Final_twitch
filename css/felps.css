@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header a {
+    color: white;
+}
+
+.content-canal {
+    background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/393aecc2-cb4d-4c60-b88b-f19e019f9ccb-profile_banner-480.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 1300px;
+    height: 1100px;
+}
+.content-canal h2 {
+    padding-top: 20px;
+    
+}
+
+.canal {
+    background-color: white;
+    margin-top: 300px;
+}
+
+.cabecalho-canal {
+    display: flex;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.cabecalho-canal h3 {
+    padding-left: 10px;
+    font-size: 20pt;
+}
+.cabecalho-canal img {
+    width: 5%;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.menu-horizontal-canal ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+}
+.menu-horizontal-canal {
+    font-size: 20pt;
+    font-weight: bold;
+    border-bottom: solid black 2px;    
+}
+
+.menu-horizontal-canal li {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.info-canais {
+    color: black;
+}
+.sobre {
+    display: flex;
+    width: 1180px;
+    justify-content: space-around;
+}
+.content-sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 0 20px;
+}
+.content-sobre div {
+    width: 300px;
+}
+
+.content-sobre h4 {
+    font-weight: bold;
+    font-size: 23pt;
+    padding-bottom: 10px;
+}
+
+.content-sobre li {
+    list-style-type:disc;
+    width: 210px;
+    padding-bottom: 6px;
+}
+.content-sobre a {
+    text-decoration: underline;
+    color:  #297dad;
+}
+.dias-da-semana {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto; 
+      margin-right: auto;
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+.content-horarios {
+    padding-top: 20px;
+}
